@@ -1,0 +1,248 @@
+/*All-inclusive Rules*/
+
+:root {
+  --bg-color: #ff3c47;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+
+  /*background-color: #ff3c47;*/
+
+  background: #ff3c47; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(circle, #ff3c47,  #ff3c47, #f8878d); /* Safari */
+  background: -o-radial-gradient(circle, #ff3c47,  #ff3c47, #f8878d); /* Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(circle, #ff3c47,  #ff3c47, #f8878d); /* Firefox 3.6 to 15 */
+  background: radial-gradient(circle, #ff3c47,  #ff3c47, #f8878d); /* Standard syntax */
+}
+
+/*Animations*/
+@keyframes slideNavDown {
+  0% {
+    transform: translateY(-60px);
+  }
+
+  100% {
+    transform: translateY(60px);
+  }
+}
+
+/*Customized Rules*/
+
+
+#bottom_text {
+  text-align: center;
+  font-family: "Adobe Arabic";
+  font-size: 150%;
+  vertical-align: middle;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+  margin-right: 3%;
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+.button-fields {
+  padding: 5px;
+  margin: 5px;
+  background-color: ghostwhite;
+  border-radius: 12px;
+  width: 100px;
+  color: black;
+  transition: .5s ease-out;
+}
+
+.button-fields:hover {
+  background-color: #f8878d;
+  transition: .5s ease-out;
+  color: ghostwhite;
+}
+
+.cell {
+  text-align: center;
+}
+
+.content_display {
+  width: 100%;
+  color: #ff3c47;
+  text-align: center;
+}
+
+#home_button {
+  display: inline;
+  float: left;
+  margin-left: 5%;
+}
+
+#home_button, #logout_button {
+  padding: 10px;
+  margin: 10px;
+  background-color: ghostwhite;
+  border-radius: 10px;
+  transition: .5s ease-out;
+}
+
+#home_button:hover {
+  transition: .5s ease-out;
+  background-color: #f8878d;
+  color: ghostwhite;
+}
+
+#logout_button {
+  display: inline;
+  float: right;
+  transition: .5s ease-out;
+  /*margin-right: 5%;*/
+}
+
+#logout_button:hover {
+  transition: .5s ease-out;
+  background-color: #f8878d;
+  color: ghostwhite;
+}
+
+nav {
+  display: block;
+}
+
+.input-holder {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-container {
+  text-align: center;
+}
+
+.input-fields {
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.title {
+  font-size: 300%;
+  color: white;
+}
+
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #555;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.navlink {
+  color: ghostwhite;
+  margin: 5px;
+  transition: .5s ease-out;
+}
+
+.navlink:hover {
+  color: black;
+  transition: .5s ease-out;
+}
+
+.navlink_container {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #555;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+}
+
+.navbar, li a {
+  display: block;
+  color: #555;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  transition: .5s ease-out;
+}
+
+.navbar, li:hover a:hover {
+  transition: .5s ease-out;
+  color: ghostwhite;
+}
+
+.footbar, li a {
+  display: block;
+  color: #555;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+#profectus {
+  text-align: center;
+  font-family: "Adobe Arabic";
+  font-size: 300%;
+  vertical-align: middle;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  margin-right: 3%;
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.view_field {
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  float: left;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px black;
+  border-style: solid;
+  top: 70px;
+}
+
+table.view_field {
+  background: ghostwhite;
+}
+
+.view_holder {
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  float: left;
+  text-align: center;
+}
